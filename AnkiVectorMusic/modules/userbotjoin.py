@@ -1,5 +1,5 @@
 """
-Anki Vector Music- Telegram bot project
+saber Music- Telegram bot project
 Copyright (C) 2021  Damantha Jasinghe
 
 This program is free software: you can redistribute it and/or modify
@@ -129,7 +129,7 @@ async def addcchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>⚠️ Flood Wait Error ⚠️ \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            "\n\nOr manually add @AnkiVectorHelper to your Group and try again</b>",
+            "\n\nOr manually add @saberHelper to your Group and try again</b>",
         )
         return
     await message.reply_text(
