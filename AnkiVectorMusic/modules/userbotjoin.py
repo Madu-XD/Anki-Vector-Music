@@ -12,7 +12,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
-Modified by Damantha Jasinghe
+Modified by Pawan Theekshana
 """
 
 
@@ -54,7 +54,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>⚠️ Flood Wait Error ⚠️ \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @AnkiVectorHelper to your Group and try again</b>",
+            "\n\nOr manually add @SaberHelper to your Group and try again</b>",
         )
         return
     await message.reply_text(
